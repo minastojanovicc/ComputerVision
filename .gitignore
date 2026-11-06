@@ -1,0 +1,39 @@
+# === Python keš i kompajlirani fajlovi ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+
+# === Virtuelna okruženja (Virtual Environments) ===
+venv/
+.venv/
+env/
+.env/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# === PyCharm / IntelliJ specifični fajlovi ===
+.idea/
+*.iml
+*.iws
+
+# Izuzetak: Ako želite da delite konfiguraciju pokretanja (run configurations) sa timom:
+# !.idea/runConfigurations/
+# !.idea/deployment.xml
+
+# === Osetljivi podaci i lokalne konfiguracije ===
+.env
+*.local
+certs/
+*.pem
+*.key
+
+# === Operativni sistemi ===
+.DS_Store
+Thumbs.db
